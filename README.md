@@ -1,4 +1,4 @@
-# Prerequisites for running Angular locally using docker
+## Prerequisites for running Angular locally using docker
 
 - Node Latest.
 - NVM for node management.
@@ -26,3 +26,7 @@ docker run -it -p 5000:9000 martins-instance
 ```
 ##### Note: here the port for docker 9000 is specified as custom port at nginx.conf level
 ##### Now access the app via http://localhost:5000/
+
+![App Screenshot](https://raw.githubusercontent.com/Quantron7t/angular-docker-demo/main/media/App_Screenshot.png?raw=true "App Screenshot")
+
+![Docker Screenshot](https://raw.githubusercontent.com/Quantron7t/angular-docker-demo/main/media/Docker_Screenshot.png?raw=true "Docker Screenshot")
